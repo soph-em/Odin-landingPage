@@ -1,0 +1,29 @@
+.header {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    flex: 200px;
+    
+}
+.textImageButton{
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+}
+img {
+    /* display:flex; */
+    align-self: right;
+    justify-self: right;
+}
+button {
+    width: 50px;
+}
+
+body {
+    margin: 0;
+}
+/* h1 {
+    font-family: roboto;
+} */
