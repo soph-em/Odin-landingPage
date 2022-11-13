@@ -5,6 +5,8 @@
     justify-content: space-between;
     
     flex: 200px;
+    padding-left: 250px;
+    padding-right: 250px;
     
 }
 .textImageButton{
@@ -12,18 +14,54 @@
     justify-content: center;
     /* flex-direction: column; */
 }
+
+.bar{
+    display: flex;
+    justify-content: row;
+    justify-content: space-between;
+    /* padding: 20px; */
+}
+
+.logo {
+    padding-right: 400px;
+}
+
+.subtext {
+    width: 200px;
+}
+
+.links {
+    padding-top: 20px;
+}
+
+.imageButton {
+    padding-right: 200px;
+}
+
 img {
     /* display:flex; */
     align-self: right;
     justify-self: right;
 }
 button {
-    width: 50px;
+    width: 75px;
 }
 
 body {
     margin: 0;
 }
-/* h1 {
-    font-family: roboto;
-} */
+h1 {
+    color: antiquewhite;
+}
+
+h2 {
+    color:antiquewhite;
+}
+a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+p {
+    color: antiquewhite;
+}
