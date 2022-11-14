@@ -20,6 +20,7 @@
     justify-content: row;
     justify-content: space-between;
     /* padding: 20px; */
+   
 }
 
 .logo {
@@ -29,6 +30,7 @@
 
 .subtext {
     width: 400px;
+    padding-bottom: 25px;
 }
 
 .links {
@@ -39,13 +41,123 @@
     padding-right: 200px;
 }
 
+.random {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-self: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.imageText {
+    max-width: 250px;
+    padding: 0;
+    text-align: center;
+    margin:5px;
+    color:#1F2937;
+    font-size: small;
+}
+
+.heroImg {
+    padding-top: 50px;
+}
+
+.someImg {
+    padding-left: 15px;
+    padding-right:15px;
+    max-width: 250px;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.quoteText {
+    font-size: 36px;
+    color: #1F2937;
+    margin:0;
+    padding-left: 500px;
+    padding-right: 500px; 
+}
+
+.quote { 
+    font-style: italic;
+    margin:0;
+}
+
+.thor {
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
+    color: #1F2937;
+    margin:0;
+    padding-left: 400px;
+    padding-right: 400px; 
+    
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 75px;
+}
+
+.blue {
+    background-color: #3882f6;
+    height: 150px;
+    padding-right: 300px;
+    padding-left: 300px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: ;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    
+
+}
+
+.call {
+    font-weight: bold;
+}
+
+.blueText {
+    margin: 25px;
+    /* width:400px; */
+    display: flex;
+    flex-direction: column;
+}
+
+.button2 {
+    border:2px solid #e5e7eb;
+    border-radius: 4px;
+    outline: #e5e7eb;
+    margin: 50px;
+    font-size: 18px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    width: 150px;
+    height:50px;
+}
 img {
     /* display:flex; */
     align-self: right;
     justify-self: right;
-    padding-top: 50px;
+    /* padding-top: 50px; */
     max-height: 200px;
+    
 }
+
 button {
     width: 75px;
     background-color: #3882f6;
@@ -66,6 +178,14 @@ h2 {
     font-size: 48px;
     font-weight: bolder;
 }
+h3 {
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}   
 a {
     color: white;
     text-decoration: none;
@@ -74,5 +194,6 @@ a {
 p {
     color: #e5e7eb;
     font-size: 18px;
+    margin:0;
     
 }
